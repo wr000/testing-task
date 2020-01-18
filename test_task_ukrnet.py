@@ -45,7 +45,7 @@ def sendMail(self, subject_string, content_string):
 class ukrnet_mail_login(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(executable_path=r'D:\Python-space\chromedriver_win32\chromedriver.exe')
+        self.driver = webdriver.Chrome("chromedriver.exe")
 
     def test_email_input(self):
         #login
